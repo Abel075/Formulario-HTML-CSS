@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+
+
+<!-- formulario de contacto -->
+
+<div class="container">
+    <header>
+        <h1> TP Formulario de<br>Contacto</h1>
+    </header>
+    
+    <section >
+        
+        <form action="envia.php" method="POST" class="form-consulta"> 
+        <label>Nombre y apellido:
+        <input type="text" name="nombre" placeholder="&#128187;Nombre y Apellido" class="campo-form" required>
+        </label>
+        
+        <label>Asunto:
+            <input type="text" name="asunto" placeholder="&#9997;Asunto" class="campo-form" required>
+            </label>
+
+        <label>Email:
+        <input type="email" name="email" placeholder="&#128231;Email" class="campo-form" required>
+        </label>
+    
+        <label>Consulta:
+        <textarea name="consulta" placeholder="" class="campo-form"></textarea>
+         </label>
+
+        <input type="submit" value="Enviar" class="btn-form">
+        </form>
+    </section>
+    
+    <!-- formulario -->  
+
+
+    <footer>
+        &copy;Abel Correa 2020
+        
+        
+        </footer>
+
+
+</div>
+
+</body>
+
+</html>
